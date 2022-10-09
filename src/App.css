@@ -1,0 +1,45 @@
+header {
+  background-color: black;
+  color: white;
+  display: flex;
+  flex-wrap: wrap;
+  min-height: 80px;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 2em;
+  margin-bottom: 2em;
+}
+
+header h2 {
+  font-size: 3em;
+}
+
+header nav {
+  padding: 5px;
+}
+
+header nav ul {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+header nav ul li {
+  list-style: none;
+  margin-left: 2em;
+  margin-top: 1em;
+}
+
+header nav ul li a {
+  text-decoration: none;
+  font-size: 1.2em;
+  color: white;
+  padding: 0.5em 1em;
+}
+
+header nav ul li a:hover {
+  background-color: rgb(48, 48, 48);
+}
+
+main {
+  padding: 0 2em;
+}
